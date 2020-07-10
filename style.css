@@ -1,0 +1,29 @@
+body{
+    margin: 0px auto; 
+}
+.container{
+    text-align: center;
+    width: 30%;
+    background-color: black;
+}
+button{
+    width: 100% !important;
+    height: 100% !important ;
+    border-radius: 60px !important;
+}
+h2{
+    font-size:24px;
+}
+td{
+    color: white;
+}
+.alert, b{
+    font-size: 25px;
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+}
